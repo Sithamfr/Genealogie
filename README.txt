@@ -13,15 +13,10 @@ genealogie.R 	# Programme R qui reconstitue la généalogie
 test_di.csv 	# Population diploïde simulée
 test_tetra.csv 	# Population tetraploïde simulée
 testgen.csv 	# Population simulée
-<<<<<<< HEAD
-genim.png 		# Exemple de sortie graphique sur la population testgen
-=======
-graphe1.png 	# Exemple 1 de sortie graphique
-graphe2.png 	# Exemple 2 de sortie graphique
+genim.png 	# Exemple de sortie graphique sur la population testgen
 
 Sur les exemples de sorties graphiques, on représente :
 	* Un noeud de forme ronde ou carrée représente respectivement un individu diploïde ou un individu tetraploïde
 	* La génération de l'individu est donnée par sa couleur (foncé = ancien)
 	* Une arête du graphe est plus épaisse si la probabilité associée est >90%
 	* Une arête du graphe est en pointillé si plusieurs couples d'individus avaient la même proba d'être ses parents et qu'il y a alors eu tirage au sort pour déterminer le couple en sortie
->>>>>>> 5e20e7c36badf4f7029ff9fe6fc7f8a58b96b740
