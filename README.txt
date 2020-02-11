@@ -1,6 +1,6 @@
 L'objectif du programme R est de reconstituer la généalogie la plus probable d'une population de rosiers au sens du maximum de vraisemblance.
 
-On dispose pour cela de jeu de données sous la forme suivante :
+On dispose pour cela de jeux de données sous la forme suivante :
 	Chaque individu est représenté en ligne. Sur chaque ligne on a donc les résultats, pour 4 gènes différents, de l'obtention de signaux correspondant à tel ou tel allèle du gène étudié. Les individus étant soit diploïdes, soit tetraploïdes, on a alors au maximum 4 allèles différents pour chacun des gènes.
 	À ces informations, on rajoute la ploïdie de l'individu (2 ou 4), son numéro de génération (plus le nombre est faible, plus l'individu est ancien) et son identifiant.
 	On a alors chaque ligne sous la forme :
